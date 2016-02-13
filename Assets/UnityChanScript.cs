@@ -48,7 +48,7 @@ public class UnityChanScript : MonoBehaviour {
     
     void Update ()
     {
-        Debug.Log("toPos: " + toPos + ", " + "waitUsersInput: " + waitUsersInput.ToString() + ", " + willMove: " + willMove.ToString());
+        Debug.Log("toPos: " + toPos + ", " + "waitUsersInput: " + waitUsersInput.ToString() + ", " + willMove + ", " + willMove.ToString());
 
         if (waitUsersInput)
         {
